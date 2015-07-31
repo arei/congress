@@ -1,6 +1,6 @@
 "use strict";
 
-var Congress = require("./congress");
+var Congress = require("../lib/Congress");
 
 (function(){
 	var args = process.argv.slice(2);

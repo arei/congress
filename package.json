@@ -6,12 +6,16 @@
     "broadcast",
     "multicast",
     "unicast",
+    "network",
+    "network discover",
+    "network discovery",
+    "network service discovery",
     "discover",
     "discovery",
     "service discovery"
   ],
   "description": "Broadcast/Multicast/Unicast discovery and communication library. Sets up and maintains connections between two or more nodes over a network.  Supports discovery and message passing between individual or all nodes.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "http://github.com/arei/congress",
   "bugs": {
     "url": "http://github.com/arei/congress/issues"
@@ -26,9 +30,9 @@
     "type": "git",
     "url": "git://github.com/arei/congress.git"
   },
-  "main": "congress.js",
+  "main": "lib/Congress.js",
   "engines": {
-    "node": ">=0.10"
+    "node": ">=0.12"
   },
   "dependencies": {},
   "devDependencies": {},
