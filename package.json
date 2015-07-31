@@ -1,0 +1,40 @@
+{
+  "author": "Glen R. Goodwin (http://www.arei.net)",
+  "name": "congress",
+  "keywords": [
+    "congress",
+    "broadcast",
+    "multicast",
+    "unicast",
+    "discover",
+    "discovery",
+    "service discovery"
+  ],
+  "description": "Broadcast/Multicast/Unicast discovery and communication library. Sets up and maintains connections between two or more nodes over a network.  Supports discovery and message passing between individual or all nodes.",
+  "version": "1.0.0",
+  "homepage": "http://github.com/arei/congress",
+  "bugs": {
+    "url": "http://github.com/arei/congress/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/arei/congress/blob/master/LICENSE.txt"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arei/congress.git"
+  },
+  "main": "congress.js",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "directories": {
+    "example": "examples"
+  }
+
+}
